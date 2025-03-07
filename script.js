@@ -14,8 +14,8 @@ document.getElementById('downloadForm').addEventListener('submit', function(even
         // Inicia o download do ebook após 2 segundos
         setTimeout(function() {
             const link = document.createElement('a');
-            link.href = 'COMO_FICAR_RICO_EM_48H.pdf'; // Nome do arquivo PDF
-            link.download = 'COMO_FICAR_RICO_EM_48H.pdf'; // Nome do arquivo para download
+            link.href = 'como_ficar_rico_em_48h.pdf'; // Nome do arquivo PDF (verifique o nome exato)
+            link.download = 'como_ficar_rico_em_48h.pdf'; // Nome do arquivo para download
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
