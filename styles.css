@@ -91,6 +91,47 @@ header p {
     margin: 0 auto;
 }
 
+.about .ebook-image {
+    max-width: 300px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.about ul {
+    text-align: left;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.about ul li {
+    margin-bottom: 10px;
+}
+
+.testimonials {
+    background-color: #ecf0f1;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial .author {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
 footer {
     background: #333;
     color: #fff;
@@ -128,5 +169,9 @@ footer p {
 
     .cta button {
         width: 100%;
+    }
+
+    .about .ebook-image {
+        max-width: 100%;
     }
 }
